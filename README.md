@@ -26,8 +26,8 @@ npm start
 3. useState, useCallback, custom Hook 사용
 
 ## 작업 내용
-1. App.tsx -> Counter.tsx로 변경 후 Counter 컴포넌트에 코드 작성
-2. 커스텀훅은 hooks 폴더 useCounter.ts로 작명 후 코드 작성
+1. Components 폴더 생성 후 App.tsx -> Counter.tsx로 변경 후 Counter 컴포넌트에 코드 작성(컴포넌트들을 한 폴더에 보관하여 추후 유지 보수 및 관리 용이)
+2. 커스텀훅은 hooks 폴더 useCounter.ts로 작명 후 코드 작성(커스텀훅들을 한 폴더에 보관하여 추후 유지 보수 및 관리 용이)
 3. 더하기, 빼기, 곱하기, 나누기 4가지 기능 구현
 
 ## 고민한점
